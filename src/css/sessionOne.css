@@ -1,0 +1,93 @@
+.session-one {
+  height: 96vh;
+  padding: 1rem;
+  background-color: rgb(1, 21, 38);
+  background-image: linear-gradient(rgba(1, 21, 38), rgba(0, 0, 0, 0.7)),
+    url(../img/slide.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.session-one > img {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.detalhamento {
+  margin-top: 5rem;
+  color: aliceblue;
+  position: relative;
+  min-height: 50%;
+}
+
+.detalhamento .config-detalhamento {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.detalhamento .config-detalhamento .computer-icon {
+  text-align: center;
+}
+.detalhamento .config-detalhamento .computer-icon img {
+  width: 120px;
+  /*  margin-top: 2rem;
+  margin-bottom: 2rem; */
+}
+
+.visible {
+  font-weight: 600;
+  overflow: hidden;
+  height: 100px;
+}
+
+ul {
+  margin-top: 0;
+  text-align: center;
+  list-style: none;
+  animation: 6s linear 0s normal none infinite change;
+}
+
+ul li {
+  line-height: 110px;
+  margin: 0;
+}
+
+@keyframes opacity {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes change {
+  75%,
+  100%,
+  0% {
+    transform: translateY(0);
+  }
+
+  25%,
+  50% {
+    transform: translateY(-48%);
+  }
+}
+
+.footerDetalhamento {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0);
+}
+
+.menssage {
+}
