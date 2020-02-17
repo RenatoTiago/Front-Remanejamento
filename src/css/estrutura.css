@@ -1,3 +1,12 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #041524;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
 body {
   margin: 0;
   margin-top: 0;
@@ -17,6 +26,7 @@ body {
   background-color: #edf7ff;
   padding: 2rem;
   min-height: 100vh;
+  position: relative;
 }
 
 .footer {
